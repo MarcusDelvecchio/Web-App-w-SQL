@@ -14,7 +14,7 @@ import { MatTableModule } from '@angular/material/table';
 @Injectable()
 export class ConfigService {
 
-  url = "http://localhost:3300";
+  url = "";
 
   // private linkstring: string = "http://localhost:3300/api/database/:query" //+this.query; ??
 

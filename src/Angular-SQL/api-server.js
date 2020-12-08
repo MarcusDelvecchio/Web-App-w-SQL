@@ -2,6 +2,9 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var port = /*process.env.port || */3300;
+
+app.use('/', express.static('static'));
+
 app.listen(port, () => {
     console.log("Running it back...");
 });
